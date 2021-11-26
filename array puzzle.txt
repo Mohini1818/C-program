@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Puzzle C03 - fill an array by making each element the same integer x */
+void fillArrayConst( int arr[], int size, int x )
+{
+  ... fill in here ...
+}
+
+void printArray( int arr[], int size )
+{
+  ... from above ...
+}
+
+const int SIZE = 100;
+int main(int argc, char *argv[])
+{
+  int x[ SIZE ];
+  
+  fillArrayConst( x, SIZE, 7 );
+  printArray( x, SIZE );
+    
+  printf("\n");
+  system("pause");	
+  return 0;
+}
